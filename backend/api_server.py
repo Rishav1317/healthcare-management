@@ -17,7 +17,7 @@ import json
 ml_path = os.path.join(os.path.dirname(__file__), 'ml')
 sys.path.insert(0, ml_path)
 
-from pdf_report_generator import generate_pdf_report
+from ml.pdf_report_generator import generate_pdf_report
 
 # Initialize FastAPI app
 app = FastAPI(
