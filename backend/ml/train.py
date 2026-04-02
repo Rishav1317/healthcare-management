@@ -16,7 +16,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error, median_absolute_error, r2_score, mean_squared_error
 import xgboost as xgb
 
-from backend.ml.data_generator import generate_synthetic_data
+from data_generator import generate_synthetic_data
 
 warnings.filterwarnings('ignore')
 

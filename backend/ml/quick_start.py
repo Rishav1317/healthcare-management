@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Quick Start Guide - Healthcare Recovery Forecasting System
 
@@ -10,9 +9,9 @@ import sys
 import os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'ml'))
 
-from backend.ml.data_generator import generate_synthetic_data
-from backend.ml.train import RecoveryModelTrainer
-from backend.ml.predictor import RecoveryPredictor
+from data_generator import generate_synthetic_data
+from train import RecoveryModelTrainer
+from predictor import RecoveryPredictor
 from datetime import datetime, timedelta
 import pandas as pd
 
